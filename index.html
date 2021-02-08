@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo.png" type="image/png">
+	
+</head>
+<body>
+    <!--Header nav -->
+     <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>Best Place</span>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+            <div class="head-bottom">
+                <h2>Nice place </h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore id dicta perferendis voluptate adipisci officiis quibusdam accusantium. Totam nisi reiciendis consequuntur, sint, a quos beatae obcaecati, id aliquam, reprehenderit ipsam?</p>
+             </div>
+             <button type="button" class="buton-head">
+                    Get Started
+            </button>
+            <!--Start side navabar-->
+                    <div class="sidnav" id="sidenav">
+                        <span id="cancel-btn" class="cancel-btn">
+                            <i class="fas fa-times"></i>
+                        </span>
+                        <ul>
+                            <li><a href="#header">header</a></li>
+                            <li><a href="#service">servie</a></li>
+                            <li><a href="#room">room</a></li>
+                            <li><a href="#customer">customer</a></li>
+                        </ul>
+                        <button class="btn sign-up">sign up</button>
+                        <button class="btn log-in"> log in</button>
+                     </div>
+                <!--End side navbar-->
+                <!--Start Full scrren modal-->
+                <div id="modal">
+                    
+                </div>
+                <!-- End Full screen modal-->
+                <!-- Start body content-->
+                <section class="service sec-width" id="service">
+                    <div class="title">
+                        <h2>Service</h2>
+                    </div>
+                    <div class="service-container">
+                    <!--Single  Service-->
+                    <article class="service">
+                        <div class="service-icon">
+                            <span>
+                            <i class = "fas fa-utensils"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h2>Food Service/Food-Runing</h2>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore id dicta perferendis  similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!.</p>
+                             <button class="btn" type="Button">
+                                 know More
+                             </button>
+                        </div>
+                     </article>
+                     <!--End Single service-->
+                      <!-- single service -->
+                     <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                   <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis suscipit!</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <div class="book">
+                    <form class="book-form">
+                        <div class="for-item">
+                            <label for="chekin-date">Chek In Date :</label>
+                            <input type="date" id="chekin-date">
+                        </div>
+                        <div class="for-item">
+                            <label for="chekou-date">Chek Out Date :</label>
+                            <input type="date" id="chekout-date">
+                        </div>
+                        <div class="for-item">
+                            <label for="children">children :</label>
+                            <input type="number" min="1" id="children" value="1">
+                        </div>
+                          <div class="for-item">
+                            <label for="Rooms">Rooms:</label>
+                            <input type="number" min="1" id="Rooms" value="1">
+                        </div>
+                        <div class="for-item">
+                            <input type="submit" value="Book Now" class="btn">
+                        </div>
+                        
+                    </form>
+                 </div>
+            </div>
+
+            <!--End Content-->
+                </section>
+
+
+
+
+
+
+
+           
+
+
+</body>
+
+
+
+</html>
